@@ -1,0 +1,23 @@
+.containerSliderImg {
+  width: 100%;
+  position: relative;
+
+  // overflow: hidden;
+  .containerSonSlider {
+    width: 300%;
+
+    .containerSlider {
+      position: relative;
+      width: 100vw;
+
+      div {
+        display: flex;
+        transition: .5s;
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

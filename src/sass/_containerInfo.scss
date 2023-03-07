@@ -1,0 +1,36 @@
+.container-grupoInfo {
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  .container-canal-text-grupo-a{
+    display: flex;
+    gap: 1rem;
+  }
+  .img-grupo {
+    filter: drop-shadow(0 1px 2px #333);
+  }
+
+  .container-text-canal {
+    p:nth-child(1) {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+  .container-bttn-sigueme {
+    a {
+      padding: .4rem;
+      box-shadow: 0 1px 2px #333;
+      background-color: #DE6363;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+  }
+}
+.container-texto-info-global{
+  color: #fff;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+}

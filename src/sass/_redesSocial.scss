@@ -1,0 +1,13 @@
+.container-app-links-redes-sociales{
+  margin-top: 2rem;
+  width: 100%;
+  .container-redes-sociales-a-links{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    img{
+      filter: drop-shadow(0 1px 2px #555);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.section-1-app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .imgLogo-first{
+    animation: animeLogoFirst alternate forwards .5s;
+  }
+}
+@keyframes animeLogoFirst {
+  from{
+    transform: scale(0);
+  }to{
+    transform: scale(1);
+  }
+}

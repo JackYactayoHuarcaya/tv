@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import "./sass/containerApp.scss";
+@import "./sass/section1.scss";
+@import "./sass/containerSlider.scss";
+@import "./sass/containerInfo";
+@import "./sass/redesSocial";
+@import "./sass/bottomTv";

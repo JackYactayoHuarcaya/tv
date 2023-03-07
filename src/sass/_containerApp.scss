@@ -1,0 +1,27 @@
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  max-width: 40rem;
+  .container-app{
+    width: 200%;
+    animation: animateTransitionGo alternate 1s forwards;
+    animation-delay: 2s;
+    .container-full-app{
+      position: relative;
+      display: flex;
+      width: 100%;
+      .section-1-app{
+        width: 100%;
+      }
+      .section-2-app{
+        width: 100%;
+      }
+    }
+  }
+}
+@keyframes animateTransitionGo {
+  to{
+    transform: translateX(-50%);
+  }
+}
